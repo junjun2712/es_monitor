@@ -22,6 +22,7 @@ fh=str(data)
 #print fh
 #print (type(fh))
 
+#截取value的数值
 str_a = fh.split("value\':")[-1]
 #print(str_a)
 
